@@ -1,0 +1,113 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    padding-top: 50px;
+      /* Margin bottom by footer height */
+    margin-bottom: 70px;
+}
+
+.starter-template {
+    padding: 40px 15px;
+
+}
+#info{
+	width: 100%;
+}
+.name{
+	color: #333333;
+	margin-left: 1%;
+}
+.tag{
+	color: #333333;
+	margin-left: 2%;
+}
+.time,.reading,.enjoy{
+	margin-left: 2%;
+}
+
+
+.content{
+	width: 100%;
+	margin-bottom: 10%;
+}
+
+/* 右上角按钮
+-------------------------------------------------- */
+
+#btn-wirte{
+	display: none;
+}
+#btn-user{
+	display: none;
+}
+
+#btn-corner{	
+	margin: 0;
+    position: absolute;
+	right: 30px;
+}
+
+
+
+@media(max-width:768px) { 
+    #btn-corner {
+        position: absolute;
+        top:0px;
+        right: 10px;
+} }
+
+/* MENU
+-------------------------------------------------- */
+.navbar-toggle {
+  position: relative;
+  float: left;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#footer{
+	margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

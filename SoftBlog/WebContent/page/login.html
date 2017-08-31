@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Login</title>
+
+		<!-- Bootstrap -->
+		<link href="/SoftBlog/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<link href="/SoftBlog/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="/SoftBlog/css/login.css" rel="stylesheet">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+        <script src="SoftBlog/js/html5shiv.min.js"></script>
+        <script src="SoftBlog/js/respond.min.js"></script>
+        <![endif]-->
+
+	</head>
+
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="">
+						SolfBlog
+					</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">         
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+				</div>
+				<div id="SignButton">
+					<a type="button" class="btn btn-default navbar-btn navbar-right"
+					href="/SoftBlog/page/login.html" >登陆/注册</a>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="/SoftBlog/index.jsp">首页</a>
+						</li>
+						<li>
+							<a href="#link1">专题</a>
+						</li>
+						<li>
+							<a href="#link2">发现</a>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">搜索</button>
+					</form>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+		</nav>
+        
+        
+        <div class="container">
+        <form class="form-signin" method="post">
+        <h2 class="form-signin-heading">Sign In</h2>
+        <label for="inputAccount" class="sr-only">Account</label>
+        <input type="text" id="inputAccount" class="form-control" placeholder="Account" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+     	<div class="alert alert-danger alert-dismissible" role="alert" id="alert-login">
+	   密码或用户名错误！
+     	</div>
+ 
+        <button class="btn btn-lg btn-primary btn-block" type="button" id="btn-login">登陆</button>
+        <a class="btn btn-lg btn-info btn-block" href="/SoftBlog/page/register.html" role="button">注册</a>
+      </form>
+      
+
+    </div> <!-- /container -->
+
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted" id="footer">@SoftBlog</p>
+			</div>
+		</footer>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script type="text/javascript" src="/SoftBlog/js/jquery-3.1.1.min.js"></script>
+	    <script type="text/javascript" src="/SoftBlog/js/login.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="/SoftBlog/js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="SoftBlog/js/ie10-viewport-bug-workaround.js"></script>
+	</body>
+
+</html>
